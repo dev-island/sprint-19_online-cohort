@@ -3,8 +3,9 @@
 ## Topics covered
 1. Express & Express Generator
 2. Middleware
-3. CRUD, MVC, Templating in express
-4. Serverless - Deploying your application
+3. Templating in express
+4. CRUD, MVC, REST
+5. Serverless - Deploying your application
 
 ## Class 1: Express Fundamentals & Routing
 - Introduction to Express
@@ -40,18 +41,17 @@ In-Class Discussion: Middleware
     - Individual blog post page
   3. Create basic controllers to fetch mock blog post data
 
-## Class 2: CRUD, MVC, and Templating
-- CRUD and MVC
-  - Create, Read, Update, Delete operations
+## Class 2: CRUD, MVC, REST
+- MVC
   - MVC design pattern (Model-View-Controller)
-- View Templates
-  - Introduction to templating engines (EJS or Pug)
-    - Rendering dynamic content in views
-
-  - Example Project: Expand the Blog
-    1. Implement functionality to create new blog posts (form submission).
-    2. Add edit and delete capabilities for posts.
-    3. Use a templating engine to render blog posts dynamically.
+- REST & RESTful APIS
+- CRUD actions
+- CORS and same origin policies
+- Full stack application infra diagrams
+  - Mono-repo w/ Express templates
+  - Mono repo that serves a react FE
+  - SPA & Express API server
+  - Full stack webframework (Next, Remix etc.)
 
 ## Class 3: Introduction to Serverless
 - Intro to Serverless
