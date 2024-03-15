@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "sls offline",
+    "deploy": "sls deploy"
+  },
+  "devDependencies": {
+    "serverless-offline": "^13.3.3"
+  }
+}

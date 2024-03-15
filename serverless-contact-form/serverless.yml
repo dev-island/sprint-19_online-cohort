@@ -1,0 +1,24 @@
+service: serverless-contact-form
+frameworkVersion: '3'
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  timeout: 30
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /
+          method: get
+  todos:
+    handler: todos.create
+    events:
+      - http:
+          path: /todos
+          method: post

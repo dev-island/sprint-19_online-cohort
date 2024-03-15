@@ -42,7 +42,7 @@ app.use(cors()); // Apply CORS middleware to all routes
 ### Configuring CORS for Specific Origins
 ```javascript
 const corsOptions = {
-  origin: ['[https://www.example.com](https://www.example.com)', '[invalid URL removed]'] 
+  origin: ['*', 'http://localhost:3000', 'http://127.0.0.1:3000', 'https:www.christianlovesthemoon.com']
 };
 
-app.use(cors(corsOptions)); 
+app.use(cors(corsOptions))l
